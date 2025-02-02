@@ -13,6 +13,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Bell-Curve</name>
 	<description>Demo project for Spring Boot</description>
+	<packaging>jar</packaging>
+
 	<url/>
 	<licenses>
 		<license/>
@@ -56,13 +58,20 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<controller-class>org.jsp.employeecontroller.EmployeeController</controller-class>
+
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+                <execution>
+                    <goals>
+                        <goal>repackage</goal>
+                    </goals>
+                </execution>
+            </executions>
 			</plugin>
 		</plugins>
 	</build>
