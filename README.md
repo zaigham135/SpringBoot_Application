@@ -28,7 +28,8 @@ This API provides endpoints for managing employees, rating categories, and perfo
 - **Port Number:** `7060`
 - **Database Configuration:**
   - The `pom.xml` file contains Clever Cloud database properties.
-  - Update the database configurations to connect with your local MySQL database.
+  - Update the database configurations to connect with your local MySQL database or use cellcurve.sql which is in the root repository.
+  
 
 ## Setup Instructions
 1. Clone the repository.
