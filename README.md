@@ -22,7 +22,7 @@ This API provides endpoints for managing employees, rating categories, and perfo
 - **GET** `/api/employees/deviation` – Get deviations.
 - **GET** `/api/employees/suggest-adjustments` – Suggest adjustments.
 - **GET** `/api/employees/test-ratings` – Test ratings count (for debugging).
-- **GET** `/api/employees/test` – A simple test endpoint that returns "Hello, World!".
+
 
 ## Server Configuration
 - **Port Number:** `7060`
