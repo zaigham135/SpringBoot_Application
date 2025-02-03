@@ -1,7 +1,0 @@
-org\jsp\bellcurve\RatingCategory.class
-org\jsp\bellcurve\BellCurveApplication.class
-org\jsp\bellcurve\employeerepo\EmployeeRepository.class
-org\jsp\bellcurve\employeecontroller\EmployeeController.class
-org\jsp\bellcurve\employeerepo\EmployeeService.class
-org\jsp\bellcurve\ratingrepo\RatingCategoryRepository.class
-org\jsp\bellcurve\Employee.class
