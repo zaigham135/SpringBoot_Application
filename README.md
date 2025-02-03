@@ -2,7 +2,7 @@
 
 ## Overview
 This API provides endpoints for managing employees, rating categories, and performing bell curve calculations.
-checkout the fully functional Webpage with Both SpringBoot Application on backend and React js on frontend -> https://bellcurve-l579kcadc-zaigham-s-projects.vercel.app/
+- Checkout the fully functional Webpage with Both SpringBoot Application on backend and React js on frontend -> https://bellcurve-l579kcadc-zaigham-s-projects.vercel.app/
 ## API Endpoints
 
 ### Employee Endpoints
