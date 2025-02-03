@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-//@CrossOrigin(origins = "https://bellcurve-5441b3cet-zaigham-s-projects.vercel.app/") // This website will work only after running the SpringBoot Application.
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://bellcurve-5441b3cet-zaigham-s-projects.vercel.app/") // This website will work only after running the SpringBoot Application.
+//@CrossOrigin(origins = "http://localhost:3000/")
 @RequestMapping("/api/employees")
 public class EmployeeController {
     @Autowired
